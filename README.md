@@ -2,7 +2,7 @@
 
 The supermarket project doesn't have, AFAIK, useful walk-throughs. I hope to provide that here.
 
-* https://www.chef.io/blog/2014/08/29/getting-started-with-oc-id-and-supermarket/
+* http://irvingpop.github.io/blog/2015/04/07/setting-up-your-private-supermarket-server
 * https://github.com/chef/supermarket/wiki/Deployment
 * https://github.com/chef/supermarket/wiki/Deployment
 
@@ -53,7 +53,7 @@ Configure oc-id
 Install:
 
     apt-get update
-    curl https://packagecloud.io/install/repositories/chef/stable/script.deb | curl
+    curl https://packagecloud.io/install/repositories/chef/stable/script.deb | bash
     apt-get install supermarket
     supermarket-ctl reconfigure
 
